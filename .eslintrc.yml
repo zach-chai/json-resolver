@@ -1,0 +1,14 @@
+# ESLint config
+
+root: true
+env:
+  node: true
+  mocha: true
+extends:
+  - eslint:recommended
+  - plugin:import/errors
+  - plugin:import/warnings
+parserOptions:
+  ecmaVersion: 7
+  sourceType: module
+# rules: ''
