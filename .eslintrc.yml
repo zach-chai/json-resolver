@@ -11,4 +11,5 @@ extends:
 parserOptions:
   ecmaVersion: 7
   sourceType: module
-# rules: ''
+rules:
+  no-console: warn
