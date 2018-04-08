@@ -1,0 +1,17 @@
+# test
+test
+coverage
+
+# linter
+.eslintrc*
+
+# editor
+.editorconfig
+
+# docker
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# Temp directory
+tmp/
