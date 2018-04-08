@@ -1,4 +1,4 @@
-# OAS Parser
+# JSON Resolver
 
 ## Development Setup Docker
 ```

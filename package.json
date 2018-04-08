@@ -1,5 +1,5 @@
 {
-  "name": "oas-parser",
+  "name": "json-resolver",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zach-chai/oas-parser.git"
+    "url": "git+https://github.com/zach-chai/json-resolver.git"
   },
   "author": "Zachary Chai",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zach-chai/oas-parser/issues"
+    "url": "https://github.com/zach-chai/json-resolver/issues"
   },
-  "homepage": "https://github.com/zach-chai/oas-parser#readme",
+  "homepage": "https://github.com/zach-chai/json-resolver#readme",
   "devDependencies": {
     "eslint": "^4.19.0",
     "eslint-plugin-import": "^2.9.0",

@@ -1,1 +1,1 @@
-module.exports = require('./lib/oas-parser');
+module.exports = require('./lib/json-resolver');
