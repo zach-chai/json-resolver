@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/zach-chai/json-resolver/issues"
   },
-  "homepage": "https://github.com/zach-chai/json-resolver#readme",
+  "homepage": "https://github.com/zach-chai/json-resolver",
   "devDependencies": {
     "eslint": "^4.19.0",
     "eslint-plugin-import": "^2.9.0",
