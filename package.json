@@ -14,6 +14,9 @@
   },
   "author": "Zachary Chai",
   "license": "MIT",
+  "bin": {
+    "json-resolver": "bin/cli.js"
+  },
   "bugs": {
     "url": "https://github.com/zach-chai/json-resolver/issues"
   },
