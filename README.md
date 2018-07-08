@@ -39,5 +39,5 @@ JsonResolver.resolveRef(filePath, function(err, result) {
 })
 ```
 
-## Currently Unsupported
+## Unsupported Features
 - References with scheme, authority, or query components according to https://tools.ietf.org/html/rfc3986#section-3
