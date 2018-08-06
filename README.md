@@ -1,6 +1,6 @@
 # JSON Resolver
 
-Parse and resolve complex JSON schemas
+Parse and resolve complex JSON Documents. Designed for Open API Specification.
 
 ## Features
 - Resolves external references to files and their sub-schemas
