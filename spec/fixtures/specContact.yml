@@ -1,0 +1,10 @@
+contact:
+  email: support@younility.com
+  name:
+    first: zach
+    last: chai
+  address:
+    $ref: '#/address'
+address:
+  number: 600
+  street: bank

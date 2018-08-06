@@ -1,0 +1,12 @@
+description: Younility API docs
+version: v0
+title: Younility API
+termsOfService: http://younility.com/terms-of-service
+contact:
+  $ref: './specContact.yml#/contact'
+# circularRef:
+#   nestedCircular:
+#     $ref: '#/circular'
+# circular:
+#   reference:
+#     $ref: '#/circular'

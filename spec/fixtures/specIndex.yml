@@ -1,0 +1,33 @@
+swagger: "2.0"
+info:
+  $ref: './specInfo.yml'
+  # $ref: '/opt/app/spec/fixtures/specInfo.yml'
+test1:
+  test2: test3
+testAllOf:
+  allOf:
+    - uniqueString: string
+      uniqueNumber: 10
+      uniqueArray:
+        - uniqueItem
+      mergeArray:
+        - uniqueItem
+        - duplicateItem
+      uniqueObject:
+        uniqueProp: prop
+      duplicateString: string1
+      duplicateObject:
+        uniqueProp: prop
+        duplicateProp: prop1
+    - duplicateString: string2
+      duplicateObject:
+        duplicateProp: prop2
+      mergeArray:
+        - uniqueItem2
+        - duplicateItem
+      newString: string
+      newObject:
+        newProp: prop
+    - newString2: string2
+      mergeArray:
+        - uniqueItem3
