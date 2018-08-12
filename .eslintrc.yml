@@ -14,3 +14,5 @@ parserOptions:
   sourceType: module
 rules:
   no-console: warn
+  semi: [warn, always]
+  keyword-spacing: warn
