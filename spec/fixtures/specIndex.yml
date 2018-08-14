@@ -2,6 +2,8 @@ swagger: "2.0"
 info:
   $ref: './specInfo.yml'
   # $ref: '/opt/app/spec/fixtures/specInfo.yml'
+email:
+  $ref: '#info/contact/email'
 test1:
   test2: test3
 testAllOf:
