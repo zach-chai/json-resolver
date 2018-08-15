@@ -1,6 +1,6 @@
 {
   "name": "json-resolver",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Parse and resolve complex JSON schemas",
   "main": "index.js",
   "scripts": {
