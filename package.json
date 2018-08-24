@@ -28,6 +28,7 @@
     "npm-run-all": "^4.1.2"
   },
   "dependencies": {
+    "ejs": "^2.6.1",
     "js-yaml": "^3.11.0"
   }
 }

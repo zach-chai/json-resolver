@@ -6,5 +6,5 @@ contact:
   address:
     $ref: '#/address'
 address:
-  number: 600
-  street: bank
+  number: 500
+  street: fake street

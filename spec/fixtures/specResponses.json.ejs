@@ -1,0 +1,33 @@
+{
+  "BadRequest": {
+    "description": "Malformed request parameters or invalid json"
+  },
+  "Unauthorized": {
+    "description": "Authentication was not performed or unauthorized access"
+  },
+  "NotFound": {
+    "description": "Requested resource was not found"
+  },
+  <% if (false) { %>
+  "ServiceUnavailable": {
+    "description": "The server is currently unable to handle the request due to a temporary overloading or maintenance of the server."
+  },
+  <% } %>
+  "UnprocessableEntity": {
+    "description": "Unprocessable Entity",
+    "schema": {
+      "type": "object",
+      "required": [
+        "errors"
+      ],
+      "properties": {
+        "errors": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}

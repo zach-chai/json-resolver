@@ -4,6 +4,10 @@ info:
   # $ref: '/opt/app/spec/fixtures/specInfo.yml'
 email:
   $ref: '#info/contact/email'
+tags:
+  $ref: './specTags.yml.ejs'
+responses:
+  $ref: './specResponses.json.ejs'
 test1:
   test2: test3
 testAllOf:
