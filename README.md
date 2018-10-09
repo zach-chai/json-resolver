@@ -39,5 +39,60 @@ JsonResolver.resolveRef(filePath, function(err, result) {
 })
 ```
 
+### Example
+```yaml
+# Original
+components:
+  schemas:
+    Pet:
+      required:
+        - id
+        - name
+      properties:
+        id:
+          type: integer
+          format: int64
+        name:
+          type: string
+        tag:
+          type: string
+    Pets:
+      type: array
+      items:
+        $ref: "#/components/schemas/Pet"
+
+# Dereferenced
+components:
+  schemas:
+    Pet:
+      required:
+      - id
+      - name
+      properties:
+        id:
+          type: integer
+          format: int64
+        name:
+          type: string
+        tag:
+          type: string
+    Pets:
+      type: array
+      items:
+        required:
+        - id
+        - name
+        properties:
+          id:
+            type: integer
+            format: int64
+          name:
+            type: string
+          tag:
+            type: string
+```
+
+
+
 ## Unsupported Features
 - References with scheme, authority, or query components according to https://tools.ietf.org/html/rfc3986#section-3
