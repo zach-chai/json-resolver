@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/zach-chai/json-resolver",
   "devDependencies": {
-    "eslint": "^4.19.0",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-watch": "^3.1.3",
+    "eslint": "^5.7.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-watch": "^4.0.2",
     "npm-run-all": "^4.1.2"
   },
   "dependencies": {
