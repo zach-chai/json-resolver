@@ -1,5 +1,7 @@
 # JSON Resolver
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zach-chai/json-resolver.svg)](https://greenkeeper.io/)
+
 Parse and resolve complex JSON Documents. Designed for Open API Specification.
 
 ## Features
